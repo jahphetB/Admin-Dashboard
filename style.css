@@ -13,7 +13,7 @@
     height: 100vh;
     overflow: hidden;
 }
-
+/* sidebar syle section */
 .side-bar {
     background-color: rgb(21, 159, 245);
     display: grid;
@@ -61,13 +61,40 @@
     text-align: center;
 }
 
-
+/* header style section */
 .header {
     grid-column: 2 / 4;
     background-color: yellow;
     display: grid;
     grid-template-columns: 3fr 1fr;
     color: black;
+}
+
+.header .search-section{
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.header .search-section input {
+    width: 350px;
+    border-radius: 15px;
+    height: 25px;
+}
+
+.header .right-corner {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.header .main-profile {
+    display: flex;
+    gap: 15px;
+    padding-left: 15px;
 }
 
 .main-content {
@@ -86,5 +113,10 @@
 .dashboard-icon {
     width: 40px;
     height: 40px;
+}
+
+.account-icon {
+    width: 40px;
+    height: 35px;
 }
 
