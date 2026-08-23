@@ -64,7 +64,7 @@
 /* header style section */
 .header {
     grid-column: 2 / 4;
-    background-color: yellow;
+    background-color: rgb(210, 238, 154);
     display: grid;
     grid-template-columns: 3fr 1fr;
     color: black;
@@ -80,13 +80,14 @@
 .header .search-section input {
     width: 350px;
     border-radius: 15px;
-    height: 25px;
+    height: 35px;
 }
 
 .header .right-corner {
     display: flex;
     gap: 10px;
     align-items: center;
+    justify-content: center;
     font-size: 18px;
     font-weight: bold;
 }
@@ -95,6 +96,37 @@
     display: flex;
     gap: 15px;
     padding-left: 15px;
+}
+
+.header .create {
+    display: flex;
+    align-items: center;
+}
+
+.header .create ul {
+    display: flex;
+    gap: 15px;
+    margin-right: 150px;
+}
+
+.header .create ul li {
+    display: flex;
+    list-style-type: none;
+    padding-right: 50px;
+}
+
+.header .create ul li button {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    background-color: rgb(21, 159, 245);
+    color: white;
+    width: 80px;
+    border-radius: 15px;
+    height: 35px;
+}
+
+.header .create ul li button:hover {
+    background-color: rgb(100, 190, 247);
 }
 
 .main-content {
