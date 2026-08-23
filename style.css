@@ -193,13 +193,29 @@
     gap: 20px;
 }
 
+.tranding div {
+    display: flex;
+    color: black;
+    align-items: center;
+    gap: 15px;
+    padding-left: 40px;
+}
+
+.tranding h3 {
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+
 .essential-icon {
     width: 25px;
     height: 25px;
     
 }
 
-.dashboard-icon {
+.dashboard-icon, .tranding-icons{
     width: 40px;
     height: 40px;
 }
